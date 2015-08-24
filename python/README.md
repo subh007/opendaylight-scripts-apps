@@ -1,6 +1,9 @@
 Executing the file:
+
 $ python rest_app.py  (edit the BASEURL according to the controller ip (address, port))
+
 Steps to follow to test the code:
+
 1.
     Launch the mininet topology:
     $ sudo mn --controller=remote,ip=<ctrl>,port=<of_port> --topo=linear,3
@@ -26,5 +29,7 @@ Steps to follow to test the code:
                                                                   in the h1 host terminal).           
     
 Test cases:
+
       1. Launch the application after the switch <--> controller connection establishment.
+      
       2. Launch the applicatoin before the switch <--> controller connection establishment.
